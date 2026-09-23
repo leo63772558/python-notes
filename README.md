@@ -49,7 +49,16 @@
 | 10.3 | 异常 | 07:45 | [10 文件和异常](notes/10-files-and-exceptions.md) |
 | 11.1 | 测试函数 | 05:01 | [11 测试代码](notes/11-testing.md) |
 | 11.2 | 测试类 | 08:09 | [11 测试代码](notes/11-testing.md) |
-| — | **爬虫笔记（占位，待补充）** | — | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.1 爬虫是什么 | 03:13 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.2 爬虫流程与法律红线 | 04:07 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.3 HTTP 请求与响应 | 04:37 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.4 requests 发送请求 | 04:24 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.5 实践：拿到豆瓣源码 | 04:18 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.6 HTML 网页结构 | 03:09 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.7 HTML 常用标签 | 05:55 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.8 实践：手写 HTML 页面 | 12:47 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.9 BeautifulSoup 解析 | 07:02 | [12 爬虫笔记](notes/12-web-crawler.md) |
+| 12 | 爬虫入门 12.10 实践：豆瓣 Top 250 | 08:51 | [12 爬虫笔记](notes/12-web-crawler.md) |
 
 ---
 
@@ -58,6 +67,9 @@
 ```
 python-notes/
 ├── README.md                          ← 你在这里
+├── code/
+│   ├── douban_top250.py              豆瓣电影 Top250 完整爬虫（可直接跑）
+│   └── practice.html                 HTML 标签练习页面（浏览器打开看效果）
 └── notes/
     ├── 00-intro.md                    介绍篇：这本书怎么学
     ├── 01-getting-started.md          起步：Python + PyCharm 环境
@@ -71,7 +83,7 @@ python-notes/
     ├── 09-classes.md                  面向对象：类、实例、继承
     ├── 10-files-and-exceptions.md     pathlib、读写文件、异常处理、json
     ├── 11-testing.md                  pytest：测试函数与测试类
-    └── 12-web-crawler.md              🚧 爬虫笔记（占位章节，待补充）
+    └── 12-web-crawler.md              爬虫笔记：requests / HTML / BeautifulSoup + 豆瓣 Top250 实战
 ```
 
 ---
