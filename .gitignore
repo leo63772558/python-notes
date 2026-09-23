@@ -1,0 +1,17 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 工作区数据（本地记忆、缓存等，不入库）
+.workbuddy/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
