@@ -56,7 +56,7 @@
 ## 📁 仓库结构
 
 ```
-python-crash-course-notes/
+python-notes/
 ├── README.md                          ← 你在这里
 └── notes/
     ├── 00-intro.md                    介绍篇：这本书怎么学
@@ -106,7 +106,7 @@ pip install pytest
 本仓库已推到：**https://github.com/leo63772558/python-notes**
 
 ```bash
-cd python-crash-course-notes
+cd python-notes
 git init
 git add .
 git commit -m "docs: 蟒蛇书第3版 1-11章笔记"
