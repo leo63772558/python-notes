@@ -103,13 +103,15 @@ pip install pytest
 
 ## 🚀 推到 GitHub
 
+本仓库已推到：**https://github.com/leo63772558/python-notes**
+
 ```bash
 cd python-crash-course-notes
 git init
 git add .
 git commit -m "docs: 蟒蛇书第3版 1-11章笔记"
 git branch -M main
-git remote add origin git@github.com:<你的用户名>/python-crash-course-notes.git
+git remote add origin git@github.com:leo63772558/python-notes.git
 git push -u origin main
 ```
 
